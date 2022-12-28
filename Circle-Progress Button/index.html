@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Progress Button</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="intr">
+        <label for="progress" class="label">Set Your Progress</label>
+        <input type="text" name="progress" id="progress" />
+        <button onclick="rotation(elem, mask,bg);" class="button">Show!</button>
+    </div>
+    <div class="Timer" id="bg">
+        <div class="Ticker" id="ticker"></div>
+        <div class="Mask" id="mask"></div>
+        <p id="value"><span></span></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
